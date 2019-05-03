@@ -4,7 +4,7 @@ A simple CLI client for Twitter's OOB OAuth ([PIN-based OAuth](https://developer
 
 # Installation
 
-No need to install. This is just a small binary file so you can download and use it as needed. The download package only includes the following binary:
+No need to install. This is just a small binary file so you can [download](https://github.com/smaeda-ks/twitter-oobOAuth-cli/releases) and use it as needed. The download package only includes the following binary:
 
 |Name|Type|
 |---|---|
@@ -13,6 +13,8 @@ No need to install. This is just a small binary file so you can download and use
 |windows_386|for Windows (32-bit x86)|
 |linux_amd64|for Linux (64-bit x86)|
 |linux_386|for Linux (32-bit x86)|
+
+ref. https://golang.org/doc/install/source#environment
 
 # Example
 
