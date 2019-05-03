@@ -25,7 +25,7 @@ func getToken(consumerKey, consumerSecret string) {
 	}
 
 	u := oauthClient.AuthorizationURL(tempCred, nil)
-	fmt.Printf("1. Go to %s\n2. Authorize the application\n3. Enter the supplied PIN here:\n", u)
+	fmt.Printf("1. Go to %s\n2. Authorize the application\n3. Enter the supplied PIN here (and press Enter):\n", u)
 
 	var code string
 	fmt.Scanln(&code)
@@ -41,7 +41,7 @@ func getToken(consumerKey, consumerSecret string) {
 func main() {
 	app := cli.NewApp()
 	app.Usage = "Twitter PIN-based OAuth CLI helper"
-	app.Version = "1.0.0"
+	app.Version = "1.0.2"
 
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
