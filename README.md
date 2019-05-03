@@ -1,4 +1,4 @@
-# twitter-oobOAuth-cli
+# tw-oob-oauth-cli
 A simple CLI client for Twitter's OOB OAuth ([PIN-based OAuth](https://developer.twitter.com/en/docs/basics/authentication/overview/pin-based-oauth)).
 
 
